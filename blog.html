@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+        extend: {
+            fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            },
+        }
+        }
+    }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Blog answer & question -->
+    <section>
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-semibol text-center mt-10 mb-5">Questions & Answers</h2>
+            <div id="accordionFlushExample">
+                <div class="rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                    <h2 class="mb-0" id="flush-headingOne">
+                        <button
+                        class="group relative flex w-full items-center rounded-none border-0 bg-white py-4 px-5 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                        type="button"
+                        data-te-collapse-init
+                        data-te-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne">
+                        1. What is DOM and what is the purpose of DOM?
+                            <span
+                                class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-6 w-6">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapseOne"
+                        class="!visible border-0"
+                        data-te-collapse-item
+                        data-te-collapse-show
+                        aria-labelledby="flush-headingOne"
+                        data-te-parent="#accordionFlushExample">
+                        <div class="py-4 px-5">
+                            <p>- Dom full meaning document object model.</p>
+                            <p>- The purpose of dom is making website more interact & change document, style, structure and content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-none border border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                    <h2 class="mb-0" id="flush-headingTwo">
+                        <button
+                        class="group relative flex w-full items-center rounded-none border-0 bg-white py-4 px-5 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                        type="button"
+                        data-te-collapse-init
+                        data-te-collapse-collapsed
+                        data-te-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo">
+                        2. How will you select HTML elements using DOM? Name the DOM methods?
+                        <span
+                            class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                            <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-6 w-6">
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapseTwo"
+                        class="!visible hidden border-0"
+                        data-te-collapse-item
+                        aria-labelledby="flush-headingTwo"
+                        data-te-parent="#accordionFlushExample">
+                        <div class="py-4 px-5">
+                            <p>- Here have many way to select dom element!</p>
+                            <p>- document.getElementsByTagName('section');</p>
+                            <p>- document.getElementById('title');</p>
+                            <p>- document.getElementsByClassName('item');</p>
+                            <p>- document.querySelectorAll('#fruits li');</p>
+                            <p>- document.querySelector('.item');</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-none border border-l-0 border-r-0 border-b-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                    <h2 class="mb-0" id="flush-headingThree">
+                        <button
+                        class="group relative flex w-full items-center rounded-none border-0 bg-white py-4 px-5 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                        type="button"
+                        data-te-collapse-init
+                        data-te-collapse-collapsed
+                        data-te-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree">
+                        3. What is event bubble?
+                        <span
+                            class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                            <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-6 w-6">
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapseThree"
+                        class="!visible hidden"
+                        data-te-collapse-item
+                        aria-labelledby="flush-headingThree"
+                        data-te-parent="#accordionFlushExample">
+                        <div class="py-4 px-5">
+                            <p>- Event bubbling is a type of dom event propagation.</p>
+                            <p>- For example you have one section in section you have one div and div have one ul and ul have 4*li. When you clicked li item then li is lowest child for parent div.</p>
+                            <p>- where the event first triggers on the innermost target element, and then successively triggers on the ancestors of the target element in the same nesting.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-none border border-l-0 border-r-0 border-b-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+                    <h2 class="mb-0" id="flush-headingFour">
+                        <button
+                        class="group relative flex w-full items-center rounded-none border-0 bg-white py-4 px-5 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-neutral-800 dark:text-white [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                        type="button"
+                        data-te-collapse-init
+                        data-te-collapse-collapsed
+                        data-te-target="#flush-collapseFour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseFour">
+                        4. What is a callback function and why will you use it?
+                        <span
+                            class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                            <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="h-6 w-6">
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                        </button>
+                    </h2>
+                    <div
+                        id="flush-collapseFour"
+                        class="!visible hidden"
+                        data-te-collapse-item
+                        aria-labelledby="flush-headingFour"
+                        data-te-parent="#accordionFlushExample">
+                        <div class="py-4 px-5">
+                            <p>- A callback function is a function passed into another function as an argument.</p>
+                            <p>- A callback function is used for another task after one task is executed in the sequence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tailwind js -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>

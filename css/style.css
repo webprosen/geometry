@@ -1,0 +1,14 @@
+/* Custom css */
+.custom-geometry img{
+    height: 140px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+#output-box li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+.random-hover-color{
+    transition: all 0.3s ease;
+}
